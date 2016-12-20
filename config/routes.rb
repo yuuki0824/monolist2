@@ -2,6 +2,8 @@ Rails.application.routes.draw do
 
   root 'welcome#index'
 
+  get    'ranking/have' => 'ranking#have_ranking'
+  get    'ranking/want' => 'ranking#want_ranking'
   get    'signup', to: 'users#new'
   get    'login' , to: 'sessions#new'
   post   'login' , to: 'sessions#create'

@@ -1,9 +1,17 @@
+.page-title {
+  text-align: center;
+}
 .item-box {
   width: 270px;
   margin: 15px;
   float: left;
   box-shadow: 0 1px 1px rgba(0,0,0,0.1);
   position: relative;
+  .number {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+  }
   .image {
     width: 270px;
     height: 270px;
@@ -100,7 +108,7 @@
 
 .action {
   position: absolute;
-  top: 10px;
+  top: 25px;
   left: 10px;
   display: none;
   .btn {
