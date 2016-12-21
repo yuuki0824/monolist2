@@ -62,6 +62,7 @@
     }
   }
 }
+
 .item-single-main {
   width: 400px;
   margin: 0 auto;
@@ -106,9 +107,10 @@
   }
 }
 
+
 .action {
   position: absolute;
-  top: 25px;
+  top: 10px;
   left: 10px;
   display: none;
   .btn {
@@ -141,6 +143,10 @@
       content: "Have it";
     }
   }
+}
+
+#ranking .action {
+  top: 35px;
 }
 
 .item-single-side {
